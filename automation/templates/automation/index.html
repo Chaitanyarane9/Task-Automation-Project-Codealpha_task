@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task Automation</title>
+    <link rel="stylesheet" type="text/css" href="/static/automation/style.css">
+</head>
+<body>
+    <h1>Task Automation</h1>
+    <form action="/organize/" method="post">
+        {% csrf_token %}
+        <button type="submit">Organize My Files</button>
+    </form>
+</body>
+</html>
